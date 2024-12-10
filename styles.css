@@ -99,46 +99,6 @@ span{
     padding-bottom: 10px;
     display: block;
 }
-.contact form{
-    padding: 50px;
-}
-.contact fieldset{
-    max-width: 600px;
-    padding: 20px;
-}
-.contact legend{
-    color: green;
-    font-size: 2rem;
-}
-.contact form .input-box{
-    padding: 10px;
-    margin: 10px;
-    margin:20px;
-    border-radius: 20px;
-    border-color: green;
-    
-}
-.contact label{
-font-size: 20px;
-font-weight: 700;
-
-}
-.contact textarea{
-    width: 100%;
-    font-size: 1.5rem;
-    border-radius: 20px;
-    
-}
-button{
-    width: 80px;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-    font-weight: 700;
-    background: green;
-    border-color: green;
-    
-}
 .footer{
     bottom: 0;
     position: relative;
@@ -147,14 +107,27 @@ button{
     text-align: center;
     background: darkgray;
 }
-.footer a{
+.contact h2{
+    color: green;
+    font-size: 2rem;
+}
+.contact{
+    bottom: 0;
+    position: relative;
+    padding: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+.contact a{
     color: black;
     width: 50px;
     height: 50px;
     border-radius: 20px;
     line-height: 50px;
     margin: 0 10px;
+
 }
-.footer a:hover{
+.contact a:hover{
     color: green;
+    font-size: 50px;
 }
