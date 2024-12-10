@@ -73,6 +73,11 @@ nav a:hover {
     grid-template-columns: repeat(3, minmax(100px, 1fr));
     gap: 10px;
 }
+.skills ul li:hover{
+   color: #057a2c;
+   cursor: pointer;
+   font-size: large;
+}
 
 .certificates img {
     width: 100%;
@@ -81,15 +86,14 @@ nav a:hover {
     border-radius: 5px;
 }
 .contact a {
-    font-size: 24px;
+    font-size: 40px;
     margin: 10px;
     color: #000000;
     text-decoration: none;
 }
-
 .contact a:hover {
     color: #057a2c;
-    font-size: 30px;
+    font-size: 50px;
 }
 .footer {
     text-align: center;
