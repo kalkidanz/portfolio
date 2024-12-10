@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #828080;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #057a2c;
+}
+
+.main {
+    text-align: center;
+    padding: 20px;
+}
+
+.main h3,
+.main h1 {
+    margin: 10px 0;
+}
+
+.main span {
+    color: #057a2c;
+}
+
+.about,
+.skills,
+.certificates,
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+.about h2,
+.skills h2,
+.certificates h2,
+.contact h2{
+    color: #057a2c;
+}
+
+.about p {
+    margin: 10px 0;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.certificates img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.contact a {
+    font-size: 24px;
+    margin: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #057a2c;
+    font-size: 30px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #828080;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 10px;
+    }
+
+    .certificates img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+    }
+
+    .main h3,
+    .main h1 {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+}
